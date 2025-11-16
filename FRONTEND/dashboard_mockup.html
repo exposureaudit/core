@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ExposureAudit Pro — Admin Dashboard</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 20px; }
+        .btn { background: #007bff; color: white; padding: 10px 20px; border: none; cursor: pointer; }
+    </style>
+</head>
+<body>
+    <h1>ExposureAudit Pro — Admin Portal</h1>
+    <p>Welcome, co-founder.</p>
+
+    <h2>Run New Audit</h2>
+    <input type="file" id="upload" accept=".csv,.xlsx">
+    <button class="btn" onclick="alert('Audit queued!')">Upload & Run</button>
+
+    <h2>Recent Reports</h2>
+    <ul>
+        <li><a href="#">CelticEdge Solutions — Nov 16, 2025</a> (High Risk)</li>
+        <li><a href="#">Dublin Tech — Nov 10, 2025</a> (Low Risk)</li>
+    </ul>
+
+    <h2>Tools</h2>
+    <button class="btn">Generate Tender Package</button>
+    <button class="btn">Re-run Last Audit</button>
+</body>
+</html>
